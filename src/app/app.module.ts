@@ -8,6 +8,7 @@ import { ProductosComponent } from './jandy/productos/productos.component';
 import { PromocionesComponent } from './jandy/promociones/promociones.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { DetalleproductosComponent } from './jandy/detalleproductos/detalleproductos.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     InicioComponent,
     QuienessomosComponent,
     ProductosComponent,
-    PromocionesComponent
+    PromocionesComponent,
+    DetalleproductosComponent
   ],
   imports: [
     BrowserModule,

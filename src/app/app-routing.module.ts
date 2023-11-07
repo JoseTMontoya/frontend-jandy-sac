@@ -4,12 +4,14 @@ import { InicioComponent } from "./jandy/inicio/inicio.component";
 import { QuienessomosComponent } from "./jandy/quienessomos/quienessomos.component";
 import { ProductosComponent } from "./jandy/productos/productos.component";
 import { PromocionesComponent } from "./jandy/promociones/promociones.component";
+import { DetalleproductosComponent } from "./jandy/detalleproductos/detalleproductos.component";
 
 const routes: Routes= [
     {path: "inicio" ,component: InicioComponent},
     {path: "quienessomos" ,component: QuienessomosComponent},
     {path: "productos" ,component: ProductosComponent},
     {path: "promociones" ,component: PromocionesComponent},
+    { path: 'detalle-producto/:id', component: DetalleproductosComponent },
     { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 
 ];

@@ -61,14 +61,13 @@
   }
   
   .portfolio-caption p {
-    font-size: 14px; /* Tamaño de fuente para el texto adicional */
-    color: #888; /* Color del texto adicional */
+    font-size: 14px; 
+    color: #888; 
   }
   
   
 section#portfolio.bg-light {
-  background-color: #ffffff; /* Color blanco de fondo */
-  /* Otras propiedades de estilo según sea necesario */
+  background-color: #ffffff; 
 }
 
 #woocommerce_product_categories-2 {

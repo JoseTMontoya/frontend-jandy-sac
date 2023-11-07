@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-productos',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./productos.component.css']
 })
 export class ProductosComponent {
+  
+  constructor(private router: Router) { }
+
+  verDetalleProducto(id: number) {
+    this.router.navigate(['/detalle-producto', id]);
+  }
 
 }

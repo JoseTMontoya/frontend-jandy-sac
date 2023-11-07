@@ -25,3 +25,43 @@
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5; 
+  }
+  
+  .producto {
+    width: 250px;
+    height: 350px; 
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-sizing: border-box; 
+  }
+  
+  .producto img {
+    max-width: 100%; 
+    max-height: 70%; 
+  }
+  
+  .producto:hover {
+    transform: translateY(-10px); 
+  }
+  
+  .titulo-productos {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+  }
+  
